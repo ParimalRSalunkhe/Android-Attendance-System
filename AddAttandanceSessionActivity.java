@@ -44,12 +44,12 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 	Button viewAttendance;
 	Button viewTotalAttendance;
 	Spinner spinnerbranch,spinneryear,spinnerSubject;
-	String branch = "Engineering";
-	String year = "FY";
+	String branch = "cse";
+	String year = "SE";
 	String subject = "SC";
 
-	private String[] branchString = new String[] { "Engineering"};
-	private String[] yearString = new String[] {"FY","SY","TY"};
+	private String[] branchString = new String[] { "cse"};
+	private String[] yearString = new String[] {"SE","TE","BE"};
 	private String[] subjectSEString = new String[] {"SC","MC"};
 	private String[] subjectTEString = new String[] {"GT","CN"};
 	private String[] subjectBEString = new String[] {"DS","NS"};
@@ -102,15 +102,15 @@ public class AddAttandanceSessionActivity<AddAttandanceActivity> extends Activit
 
 				/*if(year.equalsIgnoreCase("se"))
 				{
-					subjectFinal = subjectFYString;
+					subjectFinal = subjectSEString;
 				}
 				else if(year.equalsIgnoreCase("te"))
 				{
-					subjectFinal = subjectSYString;
+					subjectFinal = subjectTEString;
 				}
 				else if(year.equalsIgnoreCase("be"))
 				{
-					subjectFinal = subjectTYString;
+					subjectFinal = subjectBEString;
 				}*/
 
 			}
